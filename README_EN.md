@@ -46,7 +46,7 @@ Other brands are out of scope; the same author's HuaweiPods and HyperPods cover 
 ## Known limitations
 
 - The status-bar small icon stays the system Bluetooth glyph: the official model images are opaque colour product shots, and Android tints status-bar icons by alpha, so a silhouette loses all detail.
-- LDAC requires the earbuds' high-resolution audio to be unlocked first (the step inside the official FIIL+ app). The detail page tells you when it is not.
+- LDAC requires the earbuds' high-resolution audio to be unlocked first (the step inside the official FIIL+ app). The detail page tells you when it is not. On some models the unlock bit (`142`) is never reported by the protocol; the detail page says so and the switch stays usable.
 - Model detection relies on `earType`; a model that is not in the table can be selected manually in settings.
 
 ## Links
